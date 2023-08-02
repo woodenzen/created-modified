@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "created-modified"
+version = "0.1.0"
+description = ""
+authors = ["Will Simpson <will@kestrelcreek.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "created_modified"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
